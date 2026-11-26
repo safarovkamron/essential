@@ -1,0 +1,20 @@
+{
+  "name": "essential-bot",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "grammy": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
